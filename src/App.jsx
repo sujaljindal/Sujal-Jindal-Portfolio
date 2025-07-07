@@ -10,6 +10,8 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from "./components/BlurBlob";
+import { Analytics } from "@vercel/analytics/next"
+
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -71,6 +73,8 @@ const App = () => {
             <Education />
             <Contact />
             <Footer />
+
+            <Analytics/>
           </motion.div>
         </>
       )}
