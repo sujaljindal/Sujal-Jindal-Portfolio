@@ -111,7 +111,7 @@ const Navbar = () => {
                 ${isActive === item.id ? "text-[#8245ec]" : ""}`}
                 >
                   {" "}
-                  <button onClick={() => handleMenuItemClick(item.id)}>
+                  <button onClick={() => handleMenuClick(item.id)}>
                     {item.label}
                   </button>
                 </li>
