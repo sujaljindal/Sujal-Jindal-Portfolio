@@ -26,6 +26,7 @@ import flutter from "./assets/tech_logo/flutter.jpg";
 // Experience Section Logo's
 import nexg from "./assets/company_logo/nexg.png";
 import Days from "./assets/company_logo/30days.jpeg";
+import exl from "./assets/company_logo/exl_service_logo.jpg"
 
 // Education Section Logo's
 import rdjps from "./assets/education_logo/rdjps.jpg";
@@ -87,6 +88,17 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
+    img: exl,
+    role: "Software Developer",
+    company: "EXL",
+    date: "Sept 2025 - Present",
+    desc: "",
+    skills: [
+      
+    ],
+  },
+  {
+    id: 1,
     img: Days,
     role: "Software Developer",
     company: "30Days Technologies Pvt. Ltd",
@@ -99,7 +111,7 @@ export const experiences = [
     ],
   },
   {
-    id: 0,
+    id: 2,
     img: nexg,
     role: "Software Trainee",
     company: "NexGen Tech Solutions",
