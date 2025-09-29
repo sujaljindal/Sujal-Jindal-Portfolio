@@ -189,3 +189,12 @@ export const projects = [
     webapp: "",
   },
 ];
+
+export const publications=[
+  {
+    id:0,
+    title:"Deep Learning Based Crop Recommendation System",
+    description:"Agricultural technology has advanced due to the rising demand for food security due to increasing climate change and resource optimization challenges. To provide accurate and practical crop recommendations, this research presents a hybrid deep learning model that combines Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (Bi-LSTM) networks. To achieve high levels of accuracy and dependability in its data processing, the suggested system makes use of real-time soil data acquired by Internet of Things sensors. This data includes temperature, humidity, pH, and moisture levels. Hybrid architectures outperform traditional models in terms of efficiency and trustworthiness because the hybrid architecture reduces the number of false positives and removes prediction errors. The system provides farmers with actionable insights for improving soil and environmental conditions, eventually increasing crop output and sustainability. In addition to crop advice, the system includes these insights. Smart agriculture is enabled by this breakthrough, which connects deep learning and Internet of Things technologies to create smart agriculture. This innovation enables data-driven decisions that increase productivity and encourage environmental responsibility. Agricultural techniques that are both sustainable and efficient have been demonstrated to have made great progress as a result of this research, which suggests that worldwide issues have been met.",
+    DOI:"https://doi.org/10.1007/978-981-96-7134-2_35"
+  }
+]

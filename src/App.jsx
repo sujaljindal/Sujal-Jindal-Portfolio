@@ -11,6 +11,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from "./components/BlurBlob";
 import { Analytics } from "@vercel/analytics/react"
+import Publications from "./components/Publications/Publications";
 
 
 const App = () => {
@@ -70,6 +71,7 @@ const App = () => {
             <Skills />
             <Experience />
             <Work />
+            <Publications/>
             <Education />
             <Contact />
             <Footer />
