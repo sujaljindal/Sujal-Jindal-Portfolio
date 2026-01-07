@@ -98,19 +98,6 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
-    img: Days,
-    role: "Software Developer",
-    company: "30Days Technologies Pvt. Ltd",
-    date: "July 2025 - Sept 2025",
-    desc: "During my role as a Software Developer at 30 Days Technologies, I contributed to the design and development of two mobile applications using Flutter and Dart. The first project, EZHRM, was an employee management app that streamlined processes such as attendance tracking, leave management, payroll handling, and role-based access. I implemented a scalable architecture using BLoC state management and built responsive, user-friendly interfaces for both Android and iOS platforms. The second project, EZNEXT, was a student management app designed to manage admissions, attendance, assignments, and notifications. For this project, I applied GetX state management to deliver a simplified and reactive experience with efficient navigation and performance optimization. Across both applications, I was responsible for integrating REST APIs, ensuring smooth authentication and data handling, and collaborating in testing and deployment. These projects strengthened my expertise in Flutter, Dart, BLoC, GetX, REST APIs, and Git, while giving me practical experience in building real-world mobile solutions.",
-    skills: [
-      "Flutter",
-      "Dart",
-      "Android Studio",
-    ],
-  },
-  {
     id: 2,
     img: nexg,
     role: "Software Trainee",
